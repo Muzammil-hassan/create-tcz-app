@@ -1,0 +1,28 @@
+{
+  "name": "create-tcz-app",
+  "version": "1.0.0",
+  "description": "Create tcz app with this package",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "clean": "rimraf .git"
+  },
+  "bin": {
+    "create-tcz-app": "src/index.js"
+  },
+  "author": "Muzammil hasan",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "fs-extra": "^11.1.0",
+    "npm-profile": "^7.0.1",
+    "ora": "^6.1.2",
+    "pkg-install": "^1.0.0",
+    "prompts": "^2.4.2",
+    "rimraf": "^4.3.0"
+  },
+  "devDependencies": {
+    "validate-npm-package-name": "^5.0.0"
+  }
+}
