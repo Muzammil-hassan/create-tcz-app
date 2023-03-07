@@ -1,6 +1,6 @@
 {
   "name": "create-tcz-app",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "This is a TCZ Stack project bootstrapped with `create-tcz-app`.",
   "keywords": [
     "TechChefz"
@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/Muzammil-hassan/create-tcz-app/issues"
   },
-  "homepage": "https://github.com/Muzammil-hassan/create-tcz-app#readme"
+  "homepage": "https://github.com/Muzammil-hassan/create-tcz-app#readme",
+  "engines": {
+    "node": ">=14.6.0"
+  }
 }
